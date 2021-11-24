@@ -17,9 +17,7 @@ ZENDESK_AGENT_EMAIL=<Agent E-mail>
 ZENDESK_AGENT_PASSWORD=<Agent Password>
 ```
 
-If your support page's URL is harrydrippin.zendesk.com, your value of `ZENDESK_SUBDOMAIN` is `harrydrippin`.
-
-Make sure the "Password Access" option on your API setting was turned on before running this project.
+If your support page's URL is hitesh.zendesk.com, your value of `ZENDESK_SUBDOMAIN` is `hitesh`.
 
 ## Test and run
 You can run the unit test with this code below:
@@ -33,12 +31,4 @@ python ticketviewer.py run
 ```
 
 After running the server, go to http://localhost:5000 to use this system.
-
-## Usage
-
-You can see this screen after you went the page above.
-<img src="https://raw.githubusercontent.com/harrydrippin/ZendeskTicketViewer/master/screenshots/list.png">
-
-You can select the ticket for details.
-<img src="https://raw.githubusercontent.com/harrydrippin/ZendeskTicketViewer/master/screenshots/detail.png">
 
